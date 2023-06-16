@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        Mesostic Poem
+        <style>
+            body {
+            font-family: 'Courier New', monospace;
+            }
+
+            .container {
+                display: flex;
+            }
+            
+            .mesostic {
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+            }
+            
+            .line {
+                display: flex;
+                overflow: hidden;
+                white-space: nowrap;           
+            }
+            .left, .right {
+                flex-grow: 1;
+                flex-basis: 0;
+                overflow: hidden;
+            }
+            
+            .left {
+                text-align: right;
+            }
+            
+            .right {
+                text-align: left;
+            }
+            </style>
+        
+    </head>
+<body>
+    <div class="container">
+        <div class="mesostic"></div>
+    </div>
+</body>
+</html>
